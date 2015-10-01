@@ -23,6 +23,6 @@ public class Main {
     }
 
     public static void printUsage() {
-        System.out.println("Usage: java wordrank.jar <word>");
+        System.out.println("Usage: java -jar wordrank.jar <word>");
     }
 }
