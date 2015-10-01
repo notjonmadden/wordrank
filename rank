@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+    echo "Usage: rank <word>"
+else
+    java -jar out/artifacts/wordrank_jar/wordrank.jar $1
+fi
